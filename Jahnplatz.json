@@ -4595,11 +4595,11 @@
          "tilewidth":32
         }, 
         {
-         "columns":24,
+         "columns":8,
          "firstgid":2850,
          "image":"assets-converted\/TileB_PHC_Interior-AptModern.converted.png",
-         "imageheight":816,
-         "imagewidth":816,
+         "imageheight":272,
+         "imagewidth":272,
          "margin":1,
          "name":"HorrorSet_Interior-AptModern",
          "spacing":2,
