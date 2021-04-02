@@ -37,7 +37,7 @@
                 {
                  "name":"exitSceneUrl",
                  "type":"string",
-                 "value":"Jahnplatz.json#start_horror_raum"
+                 "value":"Jahnplatz.json#start"
                 }],
          "type":"tilelayer",
          "visible":true,
