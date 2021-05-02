@@ -11,10 +11,6 @@
       align-items: center;
     }
 
-    .container {}
-
-    .image {}
-
     .text {
       text-align: center;
     }
@@ -40,10 +36,7 @@
       text-align: center;
       color: white;
       background-color: black;
-    }
-
-    .hideForZoom {
-      display: none;
+      display: flexbox;
     }
 
     a {
@@ -51,17 +44,27 @@
       font-weight: bolder;
     }
 
-    h3 {
-      font-weight: normal;
+    h1 {
+      font-size: xxx-large;
     }
 
-    .centered {}
+    h3 {
+      font-weight: normal;
+      font-size: xx-large;
+    }
+
+    .flex-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
   </style>
 </head>
 
 <body>
-  <div style="display: block" class="fullscreenbox">
-    <div class="centered">
+  <div class="fullscreenbox flex-center">
+    <div>
       <h1>GAMES OF DEV</h1>
       <h3>Leider habe ich weder eine online Variante von Quartern noch Tequila Suicide gefunden. Aber es gibt ja ein
         paar
